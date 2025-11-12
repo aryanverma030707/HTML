@@ -1,0 +1,13 @@
+Starting the CSS 
+Files:
+index.html — demo markup (cards that showcase different units).
+styles.css — styles used by the demo, including the unit examples.
+Common units demonstrated:
+px — pixels. Fixed screen pixels. Good for precise control.
+% — percentage. Relative to the containing block (often the parent width).
+em — relative to the element's computed font-size. Useful for component-relative scaling.
+rem — relative to the root (<html>) font-size. Good for consistent, site-wide scalable sizing.
+vw / vh — viewport width / height (1vw = 1% of viewport width). Useful for full-viewport sections and responsive sizing.
+vmin / vmax — 1% of the smaller/larger viewport dimension.
+ch — width of the “0” glyph of the element’s font. Helpful for typographic controls (e.g., measure of input width).
+ex — height of the lowercase "x" glyph (less commonly used; dependent on font metrics).
